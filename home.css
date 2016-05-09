@@ -1,0 +1,16 @@
+#header{
+   text-align: center;
+   margin: auto;
+   border: 1px solid black;
+   width: 6em;
+   padding: 1em;
+   font-family: sans-serif;
+}
+#header:hover{
+   color: red;
+}
+#nav{
+   display: flex;
+   justify-content: space-around;
+   background-color: rgba(0, 0, 0, .5);
+}
