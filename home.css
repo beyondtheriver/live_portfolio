@@ -37,6 +37,9 @@ a.header:active{
    color: black;
    text-decoration: none;
 }
+#short_summary{
+   text-align: center;
+}
 #nav{
    display: flex;
    justify-content: space-around;
