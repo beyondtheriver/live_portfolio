@@ -59,16 +59,21 @@ a.header:active{
    color: red;
 }
 #project_preview{
+   width: 100%;
+   height: auto;
+   margin-top: 10px;
+   margin-bottom: 20px;
    display: flex;
    justify-content: space-around;
-   margin-top: 20px;
+}
+figure{
+   width: 100%;
+   height: 100%;
+   text-align: center;
 }
 #armfeat img{
-   width: 70%;
-   margin-left: 30px;
-
+   width: 100%;
 }
 #whats4dinner img{
    width: 100%;
-   margin-left: -30px;
 }
