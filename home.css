@@ -1,3 +1,8 @@
+@font-face{
+   font-family: "shoguns_clan";
+   src: url("shoguns_clan.tff");
+   src: url("shoguns_clan.woff");
+}
 body{
    background: red; /* For browsers that do not support gradients */
    background: -webkit-linear-gradient(left top, purple, yellow); /* For Safari 5.1 to 6.0 */
@@ -60,6 +65,8 @@ a.header:active{
 #nav li a:hover{
    text-decoration: none;
    color: red;
+   font-family: 'Kaushan Script', cursive;
+   font-size: 1.4em;
 }
 #project_preview{
    width: 100%;
@@ -76,7 +83,13 @@ figure{
 }
 #armfeat img{
    width: 100%;
+   border-radius: 3px;
 }
 #whats4dinner img{
    width: 100%;
+   border-radius: 3px;
+}
+#viperblack img{
+   width: 100%;
+   border-radius: 3px;
 }
