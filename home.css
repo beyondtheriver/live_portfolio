@@ -68,6 +68,14 @@ a.header:active{
    text-decoration: none;
    color: red;
 }
+#news_wrapper{
+  margin-left: 12%;
+  padding-top: 30px;
+  width: 70%;
+}
+#news_wrapper p{
+  padding-bottom: 15px;
+}
 #project_preview{
    width: 100%;
    height: auto;
