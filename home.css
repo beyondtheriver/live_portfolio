@@ -93,8 +93,14 @@ figure{
    width: 100%;
    border-radius: 3px;
 }
-
-
+#contact_wrapper{
+  padding-top: 40px;
+  width: 34%;
+  margin: auto;
+}
+#contact_wrapper h2{
+  text-align: center;
+}
 
 /* Grow Shadow */
 .hvr-grow-shadow {
