@@ -11,6 +11,23 @@ body{
    background: linear-gradient(to bottom right, purple, yellow); /* Standard syntax */
    font-family: sans-serif;
 }
+@keyframes smile{
+  from{transform: scale(1);}
+  to{transform: scale(2);}
+}
+#lions_smile{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   margin-top: 13%;
+/*   transition: 1s;
+   transform: scale(2);*/
+   animation-name: smile;
+   animation-duration: 3.2s;
+}
+#hidden{
+  display: none;
+}
 #header{
    text-align: center;
    margin: auto;
