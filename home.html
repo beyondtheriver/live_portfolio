@@ -6,23 +6,47 @@
    </head>
    <body>
       <audio id="greeting">
-         <source src="greeting.mp3">
+         <source src="new_greeting.mp3">
       </audio>
       <a class="header" href="http://www.beyondtheriver.us"><div id="header">zachary uzupis</div></a>
       <p id="short_summary">A full stack web developer with a predilection toward the front-end.
       </p>
-      <ul id="nav">
-         <li id="home"><a href="index.html">Home</a>
-         </li>
-         <li id="projects"><a href="projects.html">Projects</a>
-         </li>
-         <li id="contact"><a href="contact.html">Contact</a>
-         </li>
-      </ul>
       <div id="news_wrapper">
          <h1>News!</h1>
          <p>Zachary just graduated from New York Code and Design Academy's Web Development Intensive! - May 3, 2016</p>
          <p>Zachary's newest ruby on rails project, Arm Feat: Type Champion, just went live on heroku! Check out the <a href="projects.html">projects</a> page for more info. - April 30, 2016</p>
+      </div>
+      <div id="project_preview">
+         <figure id="armfeat">
+            <a href="https://armfeat.herokuapp.com/" ><img class="hvr-grow-shadow" src="armfeat.jpg"></a>
+            <figcaption>
+               <h2>Arm Feat: Type Champion</h2><br>
+               A Ruby on Rails web app that merges the challenge of a typing speed tester with the fun of an arm wrestle.
+            </figcaption>
+         </figure>
+         <figure id="whats4dinner">
+            <a href="http://104.236.126.232/"><img class="hvr-grow-shadow" src="whats4dinner.jpg"></a>
+            <figcaption>
+               <h2>Whats 4 Dinner?</h2><br>
+               A Ruby on Rails web app that takes the ingredients you have in your kitchen and uses the Spoonacular API to return recipes that include those ingredients.
+            </figcaption>
+         </figure>
+         <figure id="viperblack">
+            <a href="http://viperblack.herokuapp.com/"><img src="viperblack.png" class="hvr-grow-shadow"></a>
+            <figcaption>
+               <h2>Viper Black</h2><br>
+               A Sinatra based microblog for the uber elite.
+            </figcaption>
+         </figure>
+      </div>
+      <div id="contact_wrapper">
+         <h2>Contact Zak</h2>
+         <p><strong>email:</strong> zuzupis@gmail.com</p>
+         <p><strong>phone:</strong> 215-208-0140</p>
+         <p><strong>linkedin:</strong><a href="https://www.linkedin.com/in/zacharyuzupis"> https://www.linkedin.com/in/zacharyuzupis</a></p>
+         <p><strong>github:</strong><a href="https://github.com/beyondtheriver"> https://github.com/beyondtheriver</a></p>
+         <p><strong>codewars:</strong><a href="http://www.codewars.com/users/beyondtheriver"> http://www.codewars.com/users/beyondtheriver</a></p>
+         <h3><a href="zachary_uzupis_resume.pdf" target="_blank">Click here to download Zak's resume!</a></h3>
       </div>
       <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
       <script src="home.js"></script>
