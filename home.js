@@ -1,6 +1,17 @@
 $(document).ready(function(){
+   setTimeout(function(){
+      $("#zaks_head").css("display", "block");
+      $("#mouth_pop")[0].play();
+      setTimeout(function(){
+         $("#word_bubble").css("display", "block");
+         $("#mouth_pop")[0].play();
+      }, 2000);
+   }, 2000);
    $("#header").hover(function(){
       //on hover
+      //hide zak's head and word bubble
+      $("#zaks_head").css("display", "none");
+      $("#word_bubble").css("display", "none");
       //play music
       $("#greeting")[0].play();
       //start background color gradients

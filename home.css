@@ -78,6 +78,26 @@ a.header:active{
 #short_summary{
    text-align: center;
 }
+#zaks_head{
+  display: none;
+  position: fixed;
+  width: 30%;
+  top: 42px;
+  right: 42px;
+}
+#zaks_head img{
+  width: 46%;
+}
+#word_bubble{
+  display: none;
+  position: fixed;
+  width: 30%;
+  top: 13px;
+  right: -98px;
+}
+#word_bubble img{
+  width: 46%;
+}
 /*#nav{
    display: flex;
    justify-content: space-around;
