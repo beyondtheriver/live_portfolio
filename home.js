@@ -1,19 +1,25 @@
 $(document).ready(function(){
    $("#header").hover(function(){
       //on hover
+      //play music
       $("#greeting")[0].play();
-      // $("body").css("background", "linear-gradient(to bottom right, yellow, purple)");
-      // $("body").animate({
-      //    backgroundColor: "green"
-      // }, 20000);
+      //start background color gradients
       setInterval(updateGradient,10);
+      //beginning of animation
       $("#header").animate({
          fontSize: "6em"
-      }, 20000);
+      }, 20000, "linear");
+      //resume header animation
+      $("#header").resume();
    }, function(){
       //off hover
+      //pause music
       $("#greeting")[0].pause();
-      $("body").css("background", "linear-gradient(to bottom right, purple, yellow)");
+      //pause header animation
+      $("#header").pause();
+      //end updateGradient
+      // updateGradient.stop();
+      // $("body").css("background", "linear-gradient(to bottom right, purple, yellow)");
    })
    if ($("#lions_roar")){
       $("#lions_roar")[0].play();
@@ -64,7 +70,7 @@ var b2 = Math.round(istep * c1_0[2] + step * c1_1[2]);
 var color2 = "rgb("+r2+","+g2+","+b2+")";
 
  $('body').css({
-   background: "-webkit-gradient(linear, left top, right top, from("+color1+"), to("+color2+"))"}).css({
+    background: "-webkit-gradient(linear, left top, right top, from("+color1+"), to("+color2+"))"}).css({
     background: "-moz-linear-gradient(left, "+color1+" 0%, "+color2+" 100%)"});
 
   step += gradientSpeed;
