@@ -1,4 +1,9 @@
 $(document).ready(function(){
+   $(".phone_number").hover(function(){
+      $(".phone_number_text").show();
+   }, function(){
+      $(".phone_number_text").hide();
+   })
    setTimeout(function(){
       $("#zaks_head").css("display", "block");
       $("#mouth_pop")[0].play();

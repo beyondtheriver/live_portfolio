@@ -33,8 +33,10 @@ body{
   display: none;
 }
 @keyframes headeranimate{
-  from{transform: scale(1);}
-  to{transform: scale(2);}
+  from{transform: scale(1),
+        border-top-width: 4px;}
+  to{transform: scale(2),
+        border-top-width: 12px;}
 }
 /*.paused{
     -webkit-animation-play-state:paused;
@@ -45,6 +47,12 @@ body{
 #header{
    text-align: center;
    margin: auto;
+   border-style: solid;
+   border-color: black;
+   border-top-width: 4px;
+   border-bottom-width: 4px;
+   border-left-width: 4px;
+   border-right-width: 4px;
    border: 4px solid black;
    border-radius: 3px;
    width: 6em;
@@ -154,13 +162,35 @@ figure{
 }
 #contact_wrapper{
   padding-top: 40px;
-  width: 34%;
+  width: 75%;
   margin: auto;
+  text-align: center;
 }
 #contact_wrapper h2{
   text-align: center;
 }
-
+#icon_place{
+  display: flex;
+  justify-content: space-between;
+}
+#icons{
+  width: 80px;
+  height: 80px;
+}
+.phone_number{
+  background-image: url("icon_phone.svg");
+  color: transparent;
+}
+.phone_number:hover{
+  background-image: none;
+  color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.phone_number_text{
+  display: none;
+}
 /* Grow Shadow */
 .hvr-grow-shadow {
   display: inline-block;
