@@ -38,12 +38,6 @@ $(document).ready(function(){
       // updateGradient.stop();
       // $("body").css("background", "linear-gradient(to bottom right, purple, yellow)");
    })
-   if ($("#lions_roar")){
-      $("#lions_roar")[0].play();
-      setTimeout(function(){
-         $("#hidden")[0].click();
-      }, 3200);
-   }
 });
 
 var colors = new Array(
