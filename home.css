@@ -78,6 +78,7 @@ a.header:active{
   width: 30%;
   top: 42px;
   right: 42px;
+  z-index: 999;
 }
 #zaks_head img{
   width: 46%;
@@ -88,6 +89,7 @@ a.header:active{
   width: 30%;
   top: 13px;
   right: -98px;
+  z-index: 998;
 }
 #word_bubble img{
   width: 46%;
