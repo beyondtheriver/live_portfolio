@@ -92,29 +92,10 @@ a.header:active{
 #word_bubble img{
   width: 46%;
 }
-/*#nav{
-   display: flex;
-   justify-content: space-around;
-   background-color: purple;
-   margin-top: 30px;
-   list-style: none;
+#news{
+  text-align: center;
+  font-size: 2em;
 }
-#nav li{
-   padding: 10px;
-   color: yellow;
-   font-family: 'Kaushan Script', cursive;
-   font-size: 1.4em;
-}
-#nav li a:link,
-#nav li a:visited,
-#nav li a:active{
-   text-decoration: none;
-   color: yellow;
-}
-#nav li a:hover{
-   text-decoration: none;
-   color: red;
-}*/
 #news_wrapper{
   margin-left: 12%;
   padding-top: 30px;
@@ -122,6 +103,10 @@ a.header:active{
 }
 #news_wrapper p{
   padding-bottom: 15px;
+}
+#projects{
+  text-align: center;
+  font-size: 3em;
 }
 #project_preview{
    width: 100%;
