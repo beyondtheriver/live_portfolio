@@ -23,7 +23,8 @@ $(document).ready(function(){
       setInterval(updateGradient,10);
       //beginning of animation
       $("#header").animate({
-         fontSize: "6em"
+         fontSize: "5.5em",
+         borderWidth: 20
       }, 20000, "linear");
       //resume header animation
       $("#header").resume();
