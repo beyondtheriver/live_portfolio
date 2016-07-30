@@ -1,4 +1,5 @@
 $(document).ready(function(){
+   //footer phone number animation
    $(".phone_number").hover(function(){
       $(".phone_number_text").show();
    }, function(){
