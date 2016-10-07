@@ -1,3 +1,31 @@
+@media all and (min-width: 770px){
+   #iPad{
+      display: none;
+   }
+   #iPhone6Plus{
+      display: none;
+   }
+}
+@media all and (max-width: 769px) and (min-width: 415px){
+   body{
+      background-color: orange;
+   }
+   #iPhone6Plus{
+      display: none;
+   }
+   #fullscreen{
+      display: none;
+   }
+}
+@media all and (max-width: 415px){
+   #iPad{
+      display: none;
+   }
+   #fullscreen{
+      display: none;
+   }
+}
+
 #main_header{
    text-align: center;
 }
