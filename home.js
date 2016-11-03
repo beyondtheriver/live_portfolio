@@ -5,6 +5,10 @@ $(document).ready(function(){
    }, function(){
       $(".phone_number_text").hide();
    })
+   //news 'see more' option
+   $("#showmore").click(function(){
+      $("#seemore").css("display", "block");
+   });
    setTimeout(function(){
       $("#zaks_head").css("display", "block");
       $("#mouth_pop")[0].play();
