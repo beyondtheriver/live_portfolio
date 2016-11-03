@@ -8,6 +8,7 @@ $(document).ready(function(){
    //news 'see more' option
    $("#showmore").click(function(){
       $("#seemore").css("display", "block");
+      $("#showmore").css("display", "none");
    });
    setTimeout(function(){
       $("#zaks_head").css("display", "block");
